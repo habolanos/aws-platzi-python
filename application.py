@@ -3,11 +3,11 @@ application  = app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Index!"
+    return "Indice!"
 
 @app.route("/members")
 def members():
-    return "Members"
+    return "Miembros"
 
 @app.route("/members/<string:name>/")
 def getMember(name):
